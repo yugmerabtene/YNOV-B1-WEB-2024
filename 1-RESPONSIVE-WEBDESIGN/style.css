@@ -15,9 +15,9 @@ body {
 
 /* FLEXBOX CONTAINER */
 body {
-    display: flex;
+    display: flex; /* ON MET FLEXBOX EN LPLACE */
     flex-direction: column;
-    min-height: 100vh;
+
 }
 
 /* HEADER STYLES */
@@ -26,12 +26,14 @@ header {
     color: white;
     padding: 1rem;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
 }
 
 nav {
     display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -39,36 +41,19 @@ nav {
 
 nav li {
     margin-right: 20px;
-    cursor: pointer;
-}
 
-/* HAMBURGER ICON */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.hamburger div {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px 0;
-    transition: 0.4s;
 }
 
 /* MAIN STYLES */
 main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+    min-height: 100vh; /* HAUTEUR MINIMUM DE TOUT LE BODY*/
 }
 
 /* SLIDER STYLES */
 #slider {
     width: 100%;
-    overflow: hidden;
+    background-color: coral;
+
 }
 
 #slider img {
@@ -105,38 +90,23 @@ footer {
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 @media only screen and (max-width: 768px) {
+    /*NAV RESPONSIVE STYLE*/
     nav {
-        display: none;
+
         flex-direction: column;
         width: 100%;
         text-align: center;
-        position: absolute;
         background: #333;
         top: 60px;
         left: 0;
     }
 
-    nav.show {
+    /* SECTION RESPONSIVE STYLES */
+    section {
         display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
     }
 
-    nav li {
-        margin: 10px 0;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    .hamburger.active div:nth-child(1) {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-
-    .hamburger.active div:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active div:nth-child(3) {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
 }
