@@ -17,15 +17,13 @@ font-face{
     box-sizing: border-box;
 }
 
-/* TYPOGRAPHIE DE BASE */
+
+
+/* FLEXBOX CONTAINER */
 body {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-}
-
-/* FLEXBOX CONTAINER */
-body {
     display: flex; /* ON MET FLEXBOX EN LPLACE */
     flex-direction: column;
     font-family: 'Poppins-Semi-Bold', sans-serif;
