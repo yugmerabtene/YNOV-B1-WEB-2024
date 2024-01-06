@@ -65,16 +65,6 @@ main {
     padding: 20px;
 }
 
-/* SLIDER STYLES */
-#slider {
-    width: 100%;
-    overflow: hidden;
-}
-
-#slider img {
-    width: 100%;
-    height: auto;
-}
 
 /* SECTION STYLES */
 section {
@@ -114,6 +104,10 @@ footer {
         background: #333;
         top: 60px;
         left: 0;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
     }
 
 }

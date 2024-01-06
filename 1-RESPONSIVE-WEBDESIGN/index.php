@@ -1,29 +1,124 @@
 <!-- INCLUDE DU HEADER-->
 <?php include 'header.html';?>
     <main>
-        <!-- DEBUT SLIDER -->
-        <div id="slider">
-            <img src="" alt="">
+        <!-- DEBUT BANNER -->
+        <div class="banner">
+            <div id="time">time</div>
         </div>
-        <!-- FIN SLIDER -->
+        <!-- FIN BANNER -->
         <!-- DEBUT SECTION -->
         <section>
             <article>
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem,
-                    dolorem eveniet fugit ipsam iure nesciunt numquam pariatur quidem
-                    similique totam ut vel. Aspernatur beatae fuga necessitatibus placeat
-                    repellendus, soluta.
-                </p>
+                <figure>
+                    <img src="assets/img/minecraft.jpg" alt="Mincraft">
+                    <figcaption>
+                        Minecraft
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </article>
             <article>
-                <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem,
-                    dolorem eveniet fugit ipsam iure nesciunt numquam pariatur quidem
-                    similique totam ut vel. Aspernatur beatae fuga necessitatibus placeat
-                    repellendus, soluta.
-                </p>
+                <figure>
+                    <img src="assets/img/gta5.jpg" alt="gta5">
+                    <figcaption>
+                        GTA 5
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </article>
+            <article>
+                <figure>
+                    <img src="assets/img/fifa23.jpg" alt="fifa23">
+                    <figcaption>
+                        Fifa 2023
+                    </figcaption>
+                </figure>
+                <h2>Fifa 2023</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/img/minecraft.jpg" alt="Mincraft">
+                    <figcaption>
+                        Minecraft
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/img/minecraft.jpg" alt="Mincraft">
+                    <figcaption>
+                        Minecraft
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/img/minecraft.jpg" alt="Mincraft">
+                    <figcaption>
+                        Minecraft
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/img/minecraft.jpg" alt="Mincraft">
+                    <figcaption>
+                        Minecraft
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/img/minecraft.jpg" alt="Mincraft">
+                    <figcaption>
+                        Minecraft
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/img/minecraft.jpg" alt="Mincraft">
+                    <figcaption>
+                        Minecraft
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="assets/img/minecraft.jpg" alt="Mincraft">
+                    <figcaption>
+                        Minecraft
+                    </figcaption>
+                </figure>
+                <h2>Minecraft</h2>
+                <!-- LES PHOTOS ONT ETE PRISE ICI : https://www.cdkeys.com/fr_fr/pc -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+
         </section>
         <!-- FIN SECTION -->
     </main>
